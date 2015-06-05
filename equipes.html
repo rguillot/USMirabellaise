@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" />
+        <title>US Mirabellaise</title>
+        <nav>
+            <ul>
+                 <li><a href="squelette.html">Accueil</a></li>
+                 <li><a href="news.html">News</a></li>
+                 <li><a href="equipes.html">Equipes</a></li>
+                 <li><a href="club.html">Club</a></li>
+                 <li><a href="goodies.html">Goodies</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="partenaires.html">Partenaires</a></li>
+            </ul>
+        </nav>
+    </head>
+
+<form method="POST">
+    <label for="submit">Ajoutez un licencié</label>
+    <input type="submit" name="submit" value="Ajouter"></input>
+</form>
+
+<form method="POST">
+    <label for="nom">Nom :</label>
+        <input type="text" name="nom" value=""></input>
+    <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" value=""></input>
+    <label for="age">Age :</label>
+        <input type="number" name="age" value=""></input>
+    <select name="poste" value="Poste" size="5">
+        <option value="/gardien">Gardiens
+        <option value="/defenseurs">Défenseurs
+        <option value="/milieux">Milieux
+        <option value="/attaquants">Attaquants
+        <option value="/dirigeants">Dirigeants
+    </select>
+    <input type="submit" name="submit" value="Envoyer"></input>
+</form>

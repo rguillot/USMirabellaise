@@ -25,7 +25,8 @@
           url('font/Gravity-Book.svg#abcd') format('svg'),
           url('font/Gravity-Book.ttf') format('truetype');
 }
-body {
+body 
+{
 	width: 100%;
 	margin: 0;
 	display: flex;
@@ -36,7 +37,8 @@ a{
 	text-decoration: none;
 	color: #0471D0;
 }
-nav{
+nav
+{
 	margin-top:20px;
 	width: 100%;
 	display: flex;
@@ -45,30 +47,35 @@ nav{
 	justify-content: center;
 	padding-left: 25%;
 }
-nav a{
+nav a
+{
 	padding-left: 5%;
 	font-family: "Gravity-Bold";
 	color: black;
 	font-size: 1em;
 }
-nav a:hover{
+nav a:hover
+{
 	color:#0471D0;
 }
-#main_pic{
+#main_pic
+{
 	margin-top: -22px;
 	margin-bottom: 22px;
 	display: block;
 	max-width: 100%;
 	height: auto;
 }
-.main{
+.main
+{
 	width: 90%;
 	display: flex;
 	font-family: "Gravity-Bold";
 	font-size: 1.2em;
 	justify-content: space-around;
 }
-.main a {
+.main a
+{
 	width: 30%;
 	height: 200px;
 	display: flex;
@@ -82,8 +89,43 @@ nav a:hover{
 	box-shadow: 10px 10px 5px #656565;
 }
 
-.main a:hover{
+.main a:hover
+{
 	transform: scale(1.05);
 	color: #EF3026;
 	border: 5px solid #EF3026;
 }
+
+
+#footer 
+{
+   position:absolute;
+   bottom:0;
+   width: 100%;
+   height:30px;   /* Height of the footer */
+   background:#0471D0;
+   border: 0px;
+   left: 0;
+}
+.form-equipe {
+	position:absolute;
+	border: solid black thin;
+	width: 500px;
+	background-color: #0471D0;
+
+	border: none;
+	margin: 0 0 0 -10px;
+	padding: 0;
+
+}
+label.label-fam {
+	font-family: bold;
+	font-color: red;
+
+
+
+
+}
+
+
+

@@ -110,7 +110,7 @@ nav a:hover
 .form-equipe {
 	position:absolute;
 	border: solid black thin;
-	width: 500px;
+	width: 300px;
 	background-color: #0471D0;
 
 	border: none;
@@ -121,11 +121,15 @@ nav a:hover
 label.label-fam {
 	font-family: bold;
 	font-color: red;
+}
 
+.champ {
+	float: right;
+	width: 50%;
+}
 
+.poste  {
+	float: right;
 
 
 }
-
-
-

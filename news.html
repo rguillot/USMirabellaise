@@ -16,14 +16,29 @@
 
 </head>
 
-    <form method="Post">
-        <label for="submit">Ajoutez une news</label>
-            <input type="submit" name="submit" value="Ajouter"></input><br>
-        <label for="date">Date :</label>
-            <input type="date" name="date" value=""></input><br>
-        <label for="titre">Titre :</label>
-            <input type="text" name="titre" value=""></input><br>
-        <label for="news">News :</label>
-            <input type="text" name="news" value=""></input>
-    </form>
+    <form name="mon-formulaire1" action="page-envoi.html" method="get">
+
+<p>
+   Date :<br />
+   <input type="text" name="date" value="" />
+</p>
+<p>
+   Votre nom :<br />
+   <input type="text" name="titre" value="" />
+</p>
+
+<p>
+   News :<br />
+   <input type="text" name="titre" value="" />
+</p>
+
+<p>
+   Ajoutez une news :<br />
+   <textarea name="le-message" rows="6" cols="40">Ajoutez une news.</textarea>
+</p>
+<p>
+   <input type="submit" value="Envoyer" />
+   <input type="reset" value="Annuler" />
+</p>
+</form>
 </body>

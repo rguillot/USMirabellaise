@@ -76,8 +76,8 @@ nav a:hover
 }
 .main a
 {
-	width: 30%;
-	height: 200px;
+	width: 20%;
+	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items:center;
